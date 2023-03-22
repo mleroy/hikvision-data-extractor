@@ -24,8 +24,8 @@ searchId = uuid.uuid4() # common id used across paging requests
 searchQueryPageSize = 50
 searchRangeDaysBack = 14
 
-# Camera track identifiers + custom name for output
-tracks = [] # insert something here
+# Camera track identifiers
+tracks = []
 
 def get_authentication_cookies():
     # Get encryption params
